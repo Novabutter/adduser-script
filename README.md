@@ -1,13 +1,15 @@
 # Adduser-script
 This is a quick script to add a list of users to your local linux machine.
 
+NOTE: _Current version sets all passwords to `Changeme1!`.
+
 ## Usage
 
 Have a list of users on separate lines prepared before attempting to execute.
-To start, download the .sh file.
+To start, download the adduser-script.sh file.
 
-1. `chmod +x adduser-script`
-2. `./adduser-script _FILE WITH LIST OF USERS_`
+1. `chmod +x adduser-script.sh`
+2. `./adduser-script.sh [FILE WITH LIST OF USERS]`
 3. Profit
 
 ## Compatability
@@ -20,23 +22,3 @@ Maintained by Giovanni Licameli
 
 ### License
 MIT License
-
-Copyright (c) [2020] Giovvanni Licameli
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.

@@ -1,7 +1,7 @@
 # Adduser-script
 This is a quick script to add a list of users to your local linux machine.
 
-NOTE: _Current version sets all passwords to `Changeme1!`.
+NOTE: _Current version sets all passwords to `Changeme1!`._
 
 ## Usage
 
